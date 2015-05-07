@@ -17,7 +17,6 @@ var WordSchema = mongoose.Schema({
 
 WordSchema.plugin(random, {path: 'r'});
 
-
 var WordModel = mongoose.model('word', WordSchema);
 
 module.exports = WordModel;
