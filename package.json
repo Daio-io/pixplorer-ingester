@@ -1,0 +1,11 @@
+{
+  "name": "pixplorer-ingester",
+  "version": "1.0.0",
+  "description": "App to ingest new words into Pixplorer API DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
