@@ -9,6 +9,7 @@
   "author": "Daveloper87",
   "license": "ISC",
   "dependencies": {
-    "mongoose": "^4.0.2"
+    "mongoose": "^4.0.2",
+    "mongoose-random": "^0.1.1"
   }
 }
