@@ -2,9 +2,9 @@
 
 var mongoose = require('mongoose');
 
-module.exports = function() {
+module.exports = function(connectionString) {
 
-    mongoose.connect(process.env.DB_CONNECTION,
+    mongoose.connect(connectionString,
         {
             server: {
                 socketOptions: {

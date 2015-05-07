@@ -13,7 +13,12 @@ exports.startIngest = function() {
 
             new WordModel({word: item.word}).save(function (err) {
 
-                console.log('Error adding word: ', item.word, err);
+                if (err) {
+                    console.log('Error adding word: ', item.word, err);
+                }
+                else {
+                    console.log(item.word, 'Added to DB');
+                }
 
             });
 
